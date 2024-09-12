@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dance registration</h1>
+        <p>Fill the registration form below keenly to enter the dancing competition.</p>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <form>
+                <b>Name</b><input type="text" name="firstname"><input type="text" name="lastname"> <br><span
+                    class="names">First name</span><span class="names">Last Name</span><br>
+                <b>E-mail</b><input type="email" name="email"><br>
+                <b>Phone number</b> <input type="tel" name="telnumber"><br><span>Phone number</span><br>
+                <b>Gender</b> <input type="radio" name="sex" value="male">Male<input type="radio" name="sex"
+                    value="female">Female <br>
+                <b>Address</b><input type="text" name="address"><br> <span>Street Address</span><br><input type="text"
+                    name="address"><br> <span>Street Address Line 2</span><br><input type="text" name="address"><input
+                    type="text" name="address"><br> <span>City</span><span>State / Province</span><br><input type="text"
+                    name="address"><span><br>Postal / Zip Code</span>
+                <hr>
+                <b>Type of Dance</b><input type="radio" name="dance" value="Salsa">Salsa<br><input type="radio"
+                    name="dance" value="Bachata">Bachata<br><input type="radio" name="dance"
+                    value="Tango">Tango<br><input type="radio" name="dance" value="Hip Hop">Hip Hop<br><input
+                    type="radio" name="dance" value="club">Club<br><input type="radio" name="dance" value="other"><input
+                    type="text" name="dance" placeholder="Other"><br>
+                    <b>Start Day & Time</b><input type="datetime-local" name="datetime"><br><span>Hour</span>
+                <br><b>Comments</b>
+                <textarea id="textarea" name="text" rows="5"></textarea> <br><button type="submit">Submit</button>
+
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>
