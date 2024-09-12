@@ -4,5 +4,48 @@ body {
 }
 .names {
     font-size: small;
+    padding-left: 70px;
+}
+.names2 {
+    font-size: small;
+    padding-left: 115px;
+}
+.finp{
+    padding-right: 4rem;
+}
+
+.tmail{
+    padding-right: 4rem;
+}
+.tgender{
+    padding-right: 3rem;
+}
+.taddress{
+    padding-right: 3rem;
+}
+.maddress{
+    padding-left: 104px;
+}
+.dance {
+    padding-right: 1rem;
+}
+.dancet {
+    padding-left: 113px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.tdate{
+    padding-right: 10px ;
+}
+.tlabel{
+    padding-right: 55px;
+}
+button {
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: gray;
     
 }
