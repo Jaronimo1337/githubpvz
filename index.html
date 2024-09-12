@@ -38,11 +38,18 @@
                 <p class="dancet"><input type="radio" name="dance" value="Bachata">Bachata<br><input type="radio"
                         name="dance" value="Tango">Tango<br><input type="radio" name="dance" value="Hip Hop">Hip
                     Hop<br><input type="radio" name="dance" value="club">Club<br><input type="radio" name="dance"
-                        value="other"><input type="text" name="dance" placeholder="Other"></p><br><br>
+                        value="other"><input type="text" name="dance" placeholder="Other"></p>
+                <br>
+                <label class="tdropdown" for="dropdown"><b>Dance History</b></label><select name="dropdown">
+                    <option value="No">No Experience</option>
+                    <option value="yes">I have experience</option>
+                    <option value="dunno">I don't know</option>
+                </select><br><br>
                 <label class="tdate" for="datetime"><b>Start Day & Time</b></label><input type="datetime-local"
                     name="datetime"><br><br>
                 <label class="tlabel" for="text"><b>Comments</b></label>
-                <textarea id="textarea" name="text" rows="5"></textarea> <br><button type="submit">Submit</button>
+                <textarea id="textarea" name="text" rows="5"></textarea> <br><button type="submit"
+                    value="submit">Submit</button>
 
             </form>
         </article>
